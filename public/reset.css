@@ -1,0 +1,52 @@
+/* Reset básico para remover a margem, preenchimento e configurar alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove decorações de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove decorações de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Definir largura de imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Definir formatação padrão para botões */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Garantir que os inputs e botões tenham a mesma fonte */
+input, button, textarea, select {
+    font: inherit;
+    outline: none;
+}
+
+/* Remover bordas padrão no Firefox */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/* Definir fonte padrão no body */
+body {
+    line-height: 1.5;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
