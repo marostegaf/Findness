@@ -14,25 +14,25 @@
 
 .logo-search-bar {
     display: flex;
-    margin-bottom: 8vh;
+    justify-content: left;
+    align-items: center;
+    gap: 10vw
 }
 
 /* Search Bar */
 
 .search-bar {
     display: flex;
-    margin-left: 150px;
-    margin-top: 20vh;
     overflow: hidden;
     border-radius: 30px;
-    height: 68px;
+    height: 55px;
     cursor: pointer;
 }
 
 .search-bar img {
     background-color: #74b0e5;
     padding: 10px 20px;
-    height: 68px;
+    height: 55px;
 }
 
 .search-bar input {
