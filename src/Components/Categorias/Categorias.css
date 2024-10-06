@@ -1,0 +1,26 @@
+.categorias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px 15px;
+}
+
+.categoria {
+    font-size: 24px;
+    font-weight: 400;
+
+    border: 2px solid #f93d8a;
+    background-color: #FFFFFF;
+    color: #f93d8a;
+    border-radius: 15px;
+    
+    padding: 5px 20px;
+
+    cursor: pointer;
+}
+
+.categoria:hover {
+    background-color: #f93d8a;
+    color: #FFFFFF;
+}

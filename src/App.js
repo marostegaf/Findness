@@ -1,10 +1,12 @@
+import Categorias from "Components/Categorias";
 import Header from "Components/Header";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-    </div>
+      <Categorias />
+    </>
   );
 }
 

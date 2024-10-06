@@ -1,60 +1,164 @@
-/* Header */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.header-background {
-    background-color: #4d5b6a;
-    height: 70vh;
+:root {
+    --cor-rosa: #f93d8a;
 }
 
-.header-background img {
-    height: 232px;
-    cursor: pointer;
+.cabecalho {
+    font-family: "Poppins", system-ui;
+    padding-bottom: 0;
+    background-color: var(--cor-rosa);
 }
 
-/* Logo and Search Bar */
+/* TOPO */
 
-.logo-search-bar {
+.topo {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    gap: 10vw
-}
-
-/* Search Bar */
-
-.search-bar {
-    display: flex;
-    overflow: hidden;
-    border-radius: 30px;
-    height: 55px;
-    cursor: pointer;
-}
-
-.search-bar img {
-    background-color: #74b0e5;
-    padding: 10px 20px;
-    height: 55px;
-}
-
-.search-bar input {
-    background-color: #d9d9d9;
-    font-size: 24px;
-    color: #ffffff;
-    width: 500px;
-    border: none;
-    padding: 0px 25px;
-}
-
-.search-bar input::placeholder {
-    font-size: 24px;
-    color: #ffffff;
-}
-
-/* Categories */
-
-.categories {
-    display: flex;
-    gap: 15px;
     justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0 20px;
-}  
+    padding: 25px 105px;
+}
+
+
+.logo-texto-topo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: default;
+}
+
+@keyframes girar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.logo-topo {
+    width: 40px;
+    animation: girar 50s linear infinite;
+    filter: invert(1) brightness(1000%);
+}
+
+.texto-topo {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 400;
+} 
+
+.login-topo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.icone-login {
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-login {
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: transform 0.7s ease;
+}
+
+.texto-login:hover {
+    transform: translateY(-5px);
+}
+
+/* BAIXO */
+
+.baixo {
+    border-top: 2px solid #FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 105px 0 105px;
+    border-bottom: 2px solid #FFFFFF;
+    gap: 15px;
+}
+
+@keyframes aparecerEquerdaDireita {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes aparecerDireitaEsquerda {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.texto-baixo {
+    color: #FFFFFF;
+    width: 400px;
+    font-size: 40px;
+    font-weight: 300;
+    cursor: default;
+
+    opacity: 0;
+    transform: translateY(50px);
+    animation: aparecerEquerdaDireita 1.5s ease-in-out forwards;
+}
+
+.texto-azul {
+    background-color: #FFFFFF;
+    padding: 0 10px;
+    color: var(--cor-rosa);
+}
+
+.mulher-header {
+    width: 425px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: aparecerDireitaEsquerda 1.5s ease-in-out forwards;
+}
+
+/* BORDA ROSA */
+
+.borda-rosa {
+    border: 2px solid var(--cor-rosa);
+}
+
+@media (max-width: 950px) {
+    .topo {
+        padding: 25px 25px;
+    }
+
+    .baixo {
+        flex-direction: column;
+        padding: 25px 25px 0 25px;
+    }
+
+    .texto-baixo {
+        font-size: 34px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mulher-header {
+        width: 80%;
+    }
+}
+
