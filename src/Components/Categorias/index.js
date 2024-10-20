@@ -1,11 +1,12 @@
 import "./Categorias.css";
 
-const Categorias = () => {
+const Categorias = ({ onSelectCategoria }) => {
     const categorias = [
         "Ombro",
         "Triceps",
         "Biceps",
         "Peito",
+        "Costas",
         "Quadriceps",
         "Posterior",
         "Gluteo",
@@ -15,7 +16,13 @@ const Categorias = () => {
     return (
         <div className="categorias">
             {categorias.map((categoria, index) => (
-                <p className="categoria" key={index}>{categoria}</p>
+                <p 
+                    className="categoria" 
+                    key={index} 
+                    onClick={() => onSelectCategoria(categoria)}
+                >
+                    { categoria }
+                </p>
             ))}
         </div>
     );

@@ -21,7 +21,7 @@ const Header = () => {
             </div>
 
             <div className="baixo">
-                <h1 className="texto-baixo">Encontre a <span className="texto-azul">forma correta</span> de praticar seus exercícios agora mesmo.</h1>
+                <h1 className="texto-baixo">Encontre a <span className="texto-destacado">maneira</span> <span className="texto-destacado">certa</span> de praticar seus exercícios agora mesmo.</h1>
                 <img className="mulher-header" src={ mulher_header } />
             </div>
             <div className="borda-rosa"/>

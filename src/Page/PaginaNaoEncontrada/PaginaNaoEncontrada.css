@@ -1,0 +1,56 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f93d8a;
+}
+
+.conteudo span {
+    font-size: 192px;
+}
+
+.conteudo h1 {
+    font-size: 48px;
+}
+
+.conteudo p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.conteudo button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 50px;
+
+    padding: 15px 45px;
+    border: 2px solid #f93d8a;
+    background-color: #f93d8a;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.conteudo button:hover {
+    border: 2px solid #f93d8a;
+    background-color: transparent;
+    color: #f93d8a;
+    border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+    .conteudo {
+        padding: 0 10px;
+    }
+    .conteudo h1 {
+        font-size: 28px;
+    }
+
+    .conteudo p {
+        text-align: center;
+    }
+}

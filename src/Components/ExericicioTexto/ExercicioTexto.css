@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+.titulo {
+    background-color: #f93d8a;
+    color: #FFFFFF;
+    padding: 5% 0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-family: "Rethink Sans", sans-serif;
+}
+
+.exercicio-conteudo {   
+    padding: 2% 5%;
+}
+
+.exercicio-conteudo h1 {
+    font-size: 80px;
+    color: #f93d8a
+}
+
+.exercicio-conteudo h2 {
+    color: #242323;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.exercicio-conteudo p {
+    font-size: 20px;
+}

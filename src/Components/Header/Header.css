@@ -72,7 +72,7 @@
 }
 
 .texto-login:hover {
-    transform: translateY(-5px);
+    color: #56bdc0
 }
 
 /* BAIXO */
@@ -112,7 +112,8 @@
 
 .texto-baixo {
     color: #FFFFFF;
-    width: 400px;
+    width: 500px;
+    text-align: justify;
     font-size: 40px;
     font-weight: 300;
     cursor: default;
@@ -122,7 +123,7 @@
     animation: aparecerEquerdaDireita 1.5s ease-in-out forwards;
 }
 
-.texto-azul {
+.texto-destacado {
     background-color: #FFFFFF;
     padding: 0 10px;
     color: var(--cor-rosa);
