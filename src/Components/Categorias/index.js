@@ -2,6 +2,7 @@ import "./Categorias.css";
 
 const Categorias = ({ onSelectCategoria }) => {
     const categorias = [
+        "Todos",
         "Ombro",
         "Triceps",
         "Biceps",
@@ -19,7 +20,7 @@ const Categorias = ({ onSelectCategoria }) => {
                 <p 
                     className="categoria" 
                     key={index} 
-                    onClick={() => onSelectCategoria(categoria)}
+                    onClick={() => onSelectCategoria(categoria === "Todos" ? null : categoria)}
                 >
                     { categoria }
                 </p>
