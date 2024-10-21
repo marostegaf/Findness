@@ -29,3 +29,10 @@
 .exercicio-conteudo p {
     font-size: 20px;
 }
+
+@media (max-width: 1000px) {    
+    .exercicio-conteudo h1 {
+        font-size: 40px;
+        color: #f93d8a;
+    }
+}

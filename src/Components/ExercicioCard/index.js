@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "./ExercicioCard.css"
-import { CgGym } from "react-icons/cg";
 
 
 const ExercicioCard = ( { exercicio }) => {
@@ -13,7 +12,7 @@ const ExercicioCard = ( { exercicio }) => {
                 />
                 <h2>{ exercicio.titulo }</h2>
                 <Link className="link-exercicio" to={`${ exercicio.id }`}>
-                    <button><CgGym className="gym-botao"/>Ver mais</button>
+                    <button>Ver mais</button>
                 </Link>
             </div>
         </div>

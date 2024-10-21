@@ -3,10 +3,11 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
-    padding: 15px 25px;
+    padding: 15px;
 }
 
 .categoria {
+    flex: 0 1 calc(20% - 30px);
     font-size: 24px;
     font-weight: 400;
 
@@ -18,6 +19,7 @@
     padding: 5px 30px;
 
     cursor: pointer;
+    text-align: center;
 }
 
 .categoria:hover {

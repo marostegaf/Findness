@@ -1,3 +1,4 @@
+import ScrollToTop from "Components/ScrollToTop";
 import ExercicioPagina from "Page/ExercicioPagina";
 import Inicio from "Page/Inicio";
 import PaginaNaoEncontrada from "Page/PaginaNaoEncontrada";
@@ -7,6 +8,7 @@ function AppRoutes() {
   return (
     <div className="app"> 
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={ <Inicio /> } />
           <Route path=":id" element={ <ExercicioPagina /> }/>

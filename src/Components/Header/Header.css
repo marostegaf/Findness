@@ -72,7 +72,7 @@
 }
 
 .texto-login:hover {
-    color: #56bdc0
+    color: #c9cccc
 }
 
 /* BAIXO */
@@ -113,7 +113,7 @@
 .texto-baixo {
     color: #FFFFFF;
     width: 500px;
-    text-align: justify;
+    text-align: left;
     font-size: 40px;
     font-weight: 300;
     cursor: default;
