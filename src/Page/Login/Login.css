@@ -10,8 +10,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f2f2f2;
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    background: #f93d8a;
+    /*background: #f2f2f2;*/
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
   }
   ::selection{
     background: #4158d0;
@@ -31,7 +32,8 @@
     color: #fff;
     user-select: none;
     border-radius: 15px 15px 0 0;
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    background: #201e1c;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
   }
   .wrapper form{
     padding: 10px 30px 50px 30px;
@@ -109,8 +111,14 @@
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
-    background: linear-gradient(-135deg, #c850c0, #4158d0);
+    background: #201e1c;
+    /*background: linear-gradient(-135deg, #c850c0, #4158d0);*/
     transition: all 0.3s ease;
+  }
+  form .field input[type="submit"]:hover{
+    color: #201e1c;
+    background: #fff;
+    border: 3px solid #201e1c
   }
   form .field input[type="submit"]:active{
     transform: scale(0.95);

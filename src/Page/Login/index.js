@@ -37,7 +37,7 @@ const Login = () => {
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
                     />
-                    <label>User</label>
+                    <label>Usuário</label>
                 </div>
                 <div className="field">
                     <input
@@ -46,23 +46,23 @@ const Login = () => {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                     />
-                    <label>Password</label>
+                    <label>Senha</label>
                 </div>
                 <div className="content">
                     <div className="checkbox">
                     <input type="checkbox" id="remember-me" />
-                    <label for="remember-me">Remember me</label>
+                    <label for="remember-me">Lembrar</label>
                 </div>
                     <div className="pass-link">
-                        <a href="#">Forgot password?</a>
+                        <a href="#">Esqueci a senha</a>
                     </div>
                 </div>
                 {error && <p style={{ color: "red" }}>{error}</p>}
                 <div className="field">
-                    <input type="submit" value="Login" />
+                    <input type="submit" value="Entrar" />
                 </div>
                 <div className="signup-link">
-                    Not a member? <a href="#">Signup now</a>
+                    Nao possui cadastro? <a href="#">Criar conta</a>
                 </div>
             </form>
             </div>
