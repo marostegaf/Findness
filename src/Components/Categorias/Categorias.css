@@ -11,9 +11,10 @@
     font-size: 24px;
     font-weight: 400;
 
-    border: 2px solid #f93d8a;
-    background-color: #FFFFFF;
-    color: #f93d8a;
+    
+    background-color: #201e1c;
+    border: 3px solid #201e1c;
+    color: #FFFFFF;
     border-radius: 15px;
     
     padding: 5px 30px;
@@ -23,6 +24,7 @@
 }
 
 .categoria:hover {
-    background-color: #f93d8a;
-    color: #FFFFFF;
+    background-color: #ffffff;
+    border: 3px solid #201e1c;
+    color: #201e1c;
 }

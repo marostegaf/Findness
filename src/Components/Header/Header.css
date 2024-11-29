@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     padding: 25px 105px;
+    background-color: #201e1c;
 }
 
 
@@ -124,9 +125,9 @@
 }
 
 .texto-destacado {
-    background-color: #FFFFFF;
+    background-color: #201e1c;
     padding: 0 10px;
-    color: var(--cor-rosa);
+    color: #FFFFFF;
 }
 
 .mulher-header {
@@ -139,7 +140,7 @@
 /* BORDA ROSA */
 
 .borda-rosa {
-    border: 2px solid var(--cor-rosa);
+    border: 2px solid #201e1c;
 }
 
 @media (max-width: 950px) {

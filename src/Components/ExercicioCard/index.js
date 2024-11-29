@@ -7,7 +7,7 @@ const ExercicioCard = ( { exercicio }) => {
         <div className="exercicio">
             <div className="cards">
                 <img
-                    src={`exercicios/${exercicio.id}/capa.png`}
+                    src={`exe/${exercicio.id}.png`}
                     alt="Imagem do Exercício"
                 />
                 <h2>{ exercicio.titulo }</h2>

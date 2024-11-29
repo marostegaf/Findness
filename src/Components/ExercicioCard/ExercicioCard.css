@@ -14,7 +14,6 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 50px;
-    
 }
 
 .exercicio img {
@@ -24,9 +23,9 @@
 }
 
 .exercicio h2 {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 400;
-    color: #f93d8a;
+    color: #252321;
 }
 
 .link-exercicio {
@@ -39,8 +38,8 @@
     gap: 5px;
 
     padding: 8px 15px;
-    border: 2px solid #f93d8a;
-    background-color: #f93d8a;
+    border: 2px solid #201e1c;
+    background-color: #252321;
     border-radius: 10px;
     color: #FFFFFF;
     font-size: 17px;
@@ -49,10 +48,10 @@
 }
 
 .cards button:hover {
-    border: 2px solid #f93d8a;
+    border: 2px solid #201e1c;
     background-color: transparent;
     border-radius: 10px;
-    color: #f93d8a;
+    color: #201e1c;
 }
 
 @media (max-width: 1000px) {

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 .titulo {
-    background-color: #f93d8a;
+    background-color: #201e1c;
     color: #FFFFFF;
     padding: 5% 0;
     font-size: 40px;
@@ -16,13 +16,19 @@
 }
 
 .exercicio-conteudo h1 {
-    font-size: 80px;
+    font-size: 50px;
     color: #f93d8a
 }
 
 .exercicio-conteudo h2 {
     color: #242323;
-    font-size: 30px;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.exercicio-conteudo h3 {
+    color: #242323;
+    font-size: 25px;
     margin-top: 15px;
 }
 

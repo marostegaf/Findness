@@ -22,7 +22,7 @@ const ExercicioPagina = () => {
                 <ExercicioTexto titulo={exercicio.titulo}>
                     <div className="exericicio-markdown">
                             <Markdown>
-                                { exercicio.texto }
+                                { exercicio.descricao }
                             </Markdown>
                     </div>
                 </ExercicioTexto>
