@@ -10,7 +10,8 @@ const Categorias = ({ onSelectCategoria }) => {
         "Costas",
         "Quadriceps",
         "Posterior",
-        "Panturrilha"
+        "Panturrilha",
+        "Antebraco"
     ];
     
     return (
